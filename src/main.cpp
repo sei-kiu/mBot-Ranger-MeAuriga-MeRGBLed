@@ -5,6 +5,9 @@ MeRGBLed rgbled_0(0, 12);
 
 void setup()
 {
+  // See line 130 of ../lib/Makeblock-Libraries-3.26/examples/Firmware_for_Auriga/Firmware_for_Auriga.ino
+  // #define RGBLED_PORT                          44
+  // RGBLED is on pin 44
   rgbled_0.setpin(44);
 
   // Turn off all LEDs
